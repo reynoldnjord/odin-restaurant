@@ -1,0 +1,144 @@
+body{
+    font-family: cursive;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: crimson;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+header{
+    font-size: 2.5rem;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 2rem;
+    background-color: darkblue;
+    border-bottom: 1px solid black;
+}
+
+.title{
+    margin-bottom: 1rem;
+    font-family: cursive;
+    font-size: 10rem;
+}
+
+h1,
+h2 {
+    line-height: 1.5;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+button{
+    font-family: inherit;
+    color: inherit;
+    cursor: pointer;
+    border-style: none;
+    outline: none;
+}
+
+.nav-button{
+    padding: 2rem;
+    font-size: 2rem;
+    background-color: transparent;
+    border-bottom: 2px solid transparent;
+    transition: transform 0.3s;
+}
+
+.nav-button.active{
+    border-bottom: 2px solid black;
+}
+
+.nav-button:hover{
+    transform: translateY(-5%);
+}
+
+.main{
+    width: 700px;
+    padding: 4rem;
+    margin: 6rem 0;
+    font-size: 2rem;
+    background-color: lightcoral;
+    border: 1px solid black;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 525px;
+    width: 620px;
+}
+
+.home p{
+    padding: 1rem;
+}
+
+.home img{
+    width: 50%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    opacity: 90%;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+}
+
+.menu-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    padding: 4rem;
+    cursor: pointer;
+    background-color: lightcoral;
+    transition: background-color 0.3s;
+}
+
+.menu-item:hover{
+    background-color: lightsalmon;
+}
+
+.menu-item img{
+    width: 60%;
+}
+
+.menu-item h2{
+    padding: 2rem;
+}
+
+.menu-item p {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 525px;
+    width: 620px;
+}
+
+.contact p{
+    width: 100%;
+    padding: 1rem;
+}
